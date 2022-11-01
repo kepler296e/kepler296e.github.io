@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon" />
+    <script src="../js/scripts.js"></script>
+    <title>Aplicaciones emergentes de la IA</title>
+  </head>
+  <body>
+    <header>
+      <img class="logo" src="../img/favicon.ico" alt="logo" />
+      <h3>Aplicaciones emergentes de la IA</h3>
+      <nav>
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="sd.html">Stable Diffusion</a></li>
+          <li><a href="gpt3.html">GPT-3</a></li>
+          <li><a href="copilot.html">GitHub Copilot</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+    <script>
+      fetch("https://jsonplaceholder.typicode.com/users")
+        .then((response) => response.json())
+        .then((json) => {
+          console.log(json);
+          json.forEach((element) => {
+            let div = document.createElement("div");
+            div.innerHTML = `
+          <h3>${element.name}</h3>
+          <p>${element.email}</p>
+          <p>${element.phone}</p>
+          `;
+            document.body.appendChild(div);
+          });
+        });
+    </script>
+    <div class="contact">
+      <h2>Contacto</h2>
+      <div id="error"></div>
+      <form onsubmit="return validar();">
+        <input type="text" placeholder="Nombre" id="nombre" />
+        <br />
+        <input type="text" placeholder="Asunto" id="asunto" />
+        <br />
+        <input type="text" placeholder="Teléfono" id="telefono" />
+        <br />
+        <input type="email" placeholder="Email" id="email" />
+        <br />
+        <textarea placeholder="Mensaje" id="mensaje"></textarea>
+        <br />
+        <input class="button" type="submit" value="Enviar" />
+      </form>
+    </div>
+    <h1>Algunos contactos</h1>
+  </body>
+</html>
