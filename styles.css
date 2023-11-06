@@ -36,7 +36,8 @@ a {
     font-weight: 600;
 }
 
-p {
+p,
+li {
     color: #8b949e;
 }
 
@@ -45,29 +46,46 @@ p {
     padding: 24px;
 }
 
+/* PROJECTS */
 .projects {
     display: flex;
     flex-flow: row wrap;
 }
 
-.projects .item {
-    margin-right: 32px;
-    max-width: 300px;
+.projects a {
+    text-decoration: none;
+    color: white;
 }
 
-.projects img {
+.project {
+    margin: 0 32px 32px 0;
+    max-width: 300px;
+    background-color: #21262D;
+}
+
+.project img {
     width: 300px;
     height: 200px;
     object-fit: cover;
 }
 
-.courses img {
-    width: 100px;
-    height: 100px;
-    margin-right: 20px;
+.project .text {
+    margin: 24px;
 }
 
-.courses .item {
+.project:hover {
+    transform: scale(1.05);
+    transition: transform 0.2s ease-in-out;
+}
+
+.course img {
+    width: 80px;
+    height: 80px;
+    padding: 24px;
+    object-fit: contain;
+}
+
+.course {
     display: flex;
 }
 
@@ -81,10 +99,6 @@ img {
     height: 300px;
 }
 
-.twitter-timeline {
-    width: 500px;
-}
-
 /* social icons */
 .icon {
     color: white;
@@ -95,6 +109,10 @@ img {
 svg {
     width: 50px;
     height: 50px;
+}
+
+.twitter-timeline {
+    margin: auto;
 }
 
 @media (max-width: 767px) {
