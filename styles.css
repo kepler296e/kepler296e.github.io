@@ -123,4 +123,8 @@ svg {
     h3 {
         font-size: 24px;
     }
+
+    .container {
+        flex-direction: column;
+    }
 }
