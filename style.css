@@ -100,8 +100,7 @@ a {
     color: #388bfd;
 }
 
-p,
-li {
+p {
     color: #8b949e;
 }
 
@@ -124,15 +123,11 @@ li {
     text-decoration: none;
 }
 
-.project img {
+.project img,
+.project iframe {
     width: 280px;
     height: 200px;
     object-fit: cover;
-}
-
-iframe {
-    width: 280px;
-    height: 200px;
 }
 
 .project .text {
