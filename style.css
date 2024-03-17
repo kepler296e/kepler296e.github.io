@@ -98,10 +98,10 @@ button:hover {
 
 a {
     color: #388bfd;
-    text-decoration: none;
 }
 
-p {
+p,
+li {
     color: #8b949e;
 }
 
