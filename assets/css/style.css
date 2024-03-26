@@ -1,6 +1,6 @@
 body {
     background-color: #0D1117;
-    font-family: "Alliance No.1", sans-serif;
+    font-family: Arial, sans-serif;
     color: white;
     margin: 0;
 }
@@ -14,25 +14,6 @@ header {
 main {
     display: flex;
     justify-content: row;
-}
-
-@media (max-width: 768px) {
-    header {
-        flex-direction: column;
-    }
-
-    main {
-        flex-direction: column;
-    }
-
-    .links {
-        flex-direction: column;
-    }
-
-    nav {
-        height: auto;
-        position: static;
-    }
 }
 
 h1 {
@@ -230,4 +211,23 @@ nav a:hover {
 
 .course p {
     margin: .5rem;
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+    }
+
+    main {
+        flex-direction: column;
+    }
+
+    .links {
+        flex-direction: column;
+    }
+
+    nav {
+        height: auto;
+        position: static;
+    }
 }
