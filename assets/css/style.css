@@ -5,17 +5,6 @@ body {
     margin: 0;
 }
 
-header {
-    display: flex;
-    justify-content: space-between;
-    margin: 4rem 2rem 6rem 2rem;
-}
-
-main {
-    display: flex;
-    justify-content: row;
-}
-
 h1 {
     font-size: 80px;
     margin: 0 0 3rem 0;
@@ -43,9 +32,20 @@ li {
     color: #8b949e;
 }
 
+header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin: 4rem 2rem 6rem 2rem;
+}
+
+.cv {
+    border: none;
+    min-height: 300px;
+}
+
 .photo {
     width: 240px;
-    height: 240px;
 }
 
 .aboutme {
@@ -113,6 +113,11 @@ button:hover {
 .wrapper {
     display: flex;
     flex-flow: row wrap;
+}
+
+main {
+    display: flex;
+    justify-content: row;
 }
 
 nav {
@@ -213,11 +218,13 @@ nav a:hover {
     margin: .5rem;
 }
 
-@media (max-width: 768px) {
-    header {
-        flex-direction: column;
+@media (max-width: 1600px) {
+    .profile {
+        display: none;
     }
+}
 
+@media (max-width: 768px) {
     main {
         flex-direction: column;
     }
