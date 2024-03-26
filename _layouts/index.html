@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ site.title }}</title>
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
+</head>
+
+<body>
+    <div style="margin: 2rem;">
+        <a href="/">{{ site.title }}</a>
+    </div>
+    <header>
+        <div>
+            <h1>{{ site.title }}</h1>
+            <h2><span class="rainbow">{{ site.subtitle }}</span></h2>
+            <div class="links">
+                <div class="logos">
+                    {% for link in site.data.links %}
+                    <a class="logo" href="{{ link.url }}" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="1rem" height="1rem" fill="currentColor" viewBox="{{ link.viewBox }}">
+                            <path d="{{ link.svg }}"></path>
+                        </svg>
+                    </a>
+                    {% endfor %}
+                </div>
+                <a href="https://kepler42.pythonanywhere.com/">
+                    <button>Azure AI (Sentiment Analysis) + Python Backend with Django</button>
+                </a>
+            </div>
+        </div>
+        <div>
+            <img class="photo" src="{{ site.avatar }}" loading="lazy">
+            <div class="aboutme">
+                <p>👋 Hello! ¡Hola!</p>
+            </div>
+        </div>
+    </header>
+    <main>
+        <nav>
+            <p>{{ site.email }}</p>
+            <ul class="nav">
+                <li><a href="#projects">🚀 Projects</a></li>
+                <li><a href="#competitions">🏆 ML Competitions</a></li>
+                <li><a href="#education">🎓 Education</a></li>
+            </ul>
+        </nav>
+        <div class="content">
+            <section id="projects">
+                <div class="wrapper">
+                    {% for project in site.data.projects %}
+                    {% if project.url2 %}
+                    <div class="project">
+                        {% else %}
+                        <a class="project" href="{{ project.url }}" target="_blank">
+                            {% endif %}
+                            {% if project.image %}
+                            <img src="{{ project.image }}" loading="lazy">
+                            {% else %}
+                            <iframe src="{{ project.video }}" allowfullscreen></iframe>
+                            {% endif %}
+                            <div class="text">
+                                <h4>{{ project.title }}</h4>
+                                {% if project.url2 %}
+                                <ul>
+                                    <li><a href="{{ project.url }}" target="_blank">{{ project.name }}</a></li>
+                                    <li><a href="{{ project.url2 }}" target="_blank">{{ project.name2 }}</a></li>
+                                </ul>
+                                {% endif %}
+                                <p>{{ project.description }}</p>
+                            </div>
+                            {% if project.url2 %}
+                    </div>
+                    {% else %}
+                    </a>
+                    {% endif %}
+                    {% endfor %}
+                </div>
+            </section>
+            <section id="competitions">
+                <h3>Machine Learning Competitions</h3>
+                <div class="wrapper">
+                    {% for competition in site.data.competitions %}
+                    <a class="competition" href="{{ competition.url }}" target="_blank">
+                        <img src="{{ competition.image }}" loading="lazy">
+                        <div class="text">
+                            <h4>{{ competition.title }}</h4>
+                            <p>{{ competition.description }}</p>
+                        </div>
+                    </a>
+                    {% endfor %}
+                </div>
+            </section>
+            <section id="education">
+                <h3>Education</h3>
+                <div class="wrapper">
+                    {% for course in site.data.courses %}
+                    <div class="course">
+                        <img src="{{ site.data.institutions[course.institution].image }}" loading="lazy">
+                        <div>
+                            {% if course.rainbow %}
+                            <h4 class="rainbow">{{ course.title }}</h4>
+                            {% else %}
+                            <h4>{{ course.title }}</h4>
+                            {% endif %}
+                            <p>{{ site.data.institutions[course.institution].name }}</p>
+                            <p>{{ course.date }}</p>
+                            {% if course.certificate %}
+                            <a href="{{ course.certificate }}" target="_blank">Certificate</a>
+                            {% endif %}
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <p>.</p>
+    </footer>
+    <script src="{{ site.baseurl }}/assets/js/script.js"></script>
+</body>
+
+</html>

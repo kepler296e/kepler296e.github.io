@@ -1,0 +1,29 @@
+- title: BERT Multilingual NLI Classification
+  description: NLP
+  image: https://www.kaggle.com/competitions/21733/images/header
+  url: https://www.kaggle.com/code/kepler296b/wabertson
+
+- title: Tweet Disaster Classification
+  description: NLP
+  image: https://www.kaggle.com/competitions/17777/images/header
+  url: https://www.kaggle.com/code/kepler296b/nlp-disaster-tweets
+
+- title: Store Sales, Time Series Forecasting
+  description: XGBoost
+  image: https://www.kaggle.com/competitions/29781/images/header
+  url: https://www.kaggle.com/code/kepler296b/time-series
+
+- title: Multi-Class Prediction of Obesity Risk
+  description: XGBoost
+  image: https://www.kaggle.com/competitions/68479/images/header
+  url: https://www.kaggle.com/kepler296b/obesity-risk
+
+- title: Spaceship Titanic
+  description: Logistic Regression
+  image: https://www.kaggle.com/competitions/34377/images/header
+  url: https://www.kaggle.com/code/kepler296b/spaceship-titanic
+
+- title: Titanic
+  description: Random Forest
+  image: https://www.kaggle.com/competitions/3136/images/header
+  url: https://www.kaggle.com/code/kepler296b/titanic

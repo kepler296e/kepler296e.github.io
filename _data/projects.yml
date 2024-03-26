@@ -1,0 +1,72 @@
+- title: Word Embeddings
+  description: Pre-trained GloVe embeddings, Word2vec, t-SNE, K-means, Clustering
+  image: https://devopedia.org/images/article/220/7105.1569667793.png
+  url: https://github.com/kepler296e/nlp/blob/master/word_embeddings.ipynb
+
+- title: Recurrent Neural Network from Scratch
+  description: Following the DeepLearning.AI Sequence Models course on RNN, GRU, and LSTM.
+  image: https://pbs.twimg.com/media/Eo3plJwU0AMEX6j.jpg
+  url: https://github.com/kepler296e/nlp/blob/master/rnn.ipynb"
+
+- title: Azure AI + Python Backend with Django
+  description: Sentiment Analysis model deployed on production.
+  image: https://cdn.botpenguin.com/assets/website/Sentiment_Analysis_949cdd3fd1.png
+  url: https://kepler42.pythonanywhere.com/
+
+- title: "Data Analysis: Bicycle Trips in Buenos Aires"
+  description: EDA, Python, Matplotlib, Seaborn, Statistics, Pandas, Numpy
+  image: assets/img/heatmap.png
+  url: datos.html
+
+- title: Neural Network from Scratch
+  description: Supervised Learning, Deep Learning, Neural Networks, Fundamentals, Python
+  video: https://www.youtube.com/embed/0eb_RSzP3rY
+  url: https://github.com/kepler296e/nn_scratch_mnist
+
+- title: "Titanic: Power BI + ML"
+  description: Power BI, Random Forest
+  video: media/titanic_bi.pdf 
+  url: media/titanic_bi.pdf
+  url2: https://www.kaggle.com/code/kepler296b/titanic
+  name: Power BI report
+  name2: Notebook
+
+- title: Natural Language Processing with BERT
+  description: LLM, NLP, BERT, Exploratory Data Analysis, TensorFlow, Preprocessing, Transformers, Embeddings
+  image: https://i0.wp.com/neptune.ai/wp-content/uploads/2022/10/bert_encoder.png?resize=576%2C526&ssl=1
+  url: https://www.kaggle.com/code/kepler296b/wabertson
+
+- title: "Bigram: Character-level Language Model"
+  description: "Following the Andrej Karpathy's \"Neural Networks: Zero To Hero\" series on YouTube."
+  image: https://miro.medium.com/v2/resize:fit:786/format:webp/0*o0rTpF0DSAtYa33O.png
+  url: https://www.kaggle.com/code/kepler296b/bigram-names
+
+- title: "GPT-4 Chatbot Android App \"Converso\""
+  description: OpenAI API, GPT, Android, Kotlin, Authentication, Database, Text to Speech, Speech to Text
+  image: https://raw.githubusercontent.com/kepler296e/converso-gpt4/master/screenshots/s1.jpeg
+  url: https://github.com/kepler296e/converso-gpt4
+
+- title: Harvard CS50's Intro. to Computer Science Final Project
+  description: Computer Science, SQL, Python, C, Fundamentals
+  video: https://www.youtube.com/embed/AEUWupUbdfI
+  url: http://kepler296e.pythonanywhere.com/
+
+- title: Fractals, Complex Roots, and Irrational Numbers
+  description: Python, Matplotlib, Complex Analysis, Mathematics
+  image: https://raw.githubusercontent.com/kepler296e/math-lab/master/images/mandel.png
+  url: https://github.com/kepler296e/math-lab
+
+- title: Unity3D Game Assets
+  description: C#, Game Developement, Unity3D
+  image: https://raw.githubusercontent.com/kepler296e/unity-kepler-assets/master/Gifs/objcntrl1.gif
+  url: https://github.com/kepler296e/unity-kepler-assets
+
+- title: Tweet Classification using Logistic Regression
+  description: NLP, Supervised Learning, Python, Pandas, TF-IDF
+  image: https://raw.githubusercontent.com/kepler296e/nlp-dtweets/master/sigmoid.png
+  url: https://github.com/kepler296e/nlp-dtweets
+
+- title: Linear Regression in C
+  description: C, Linear Regression
+  image: https://i.ytimg.com/vi/3bFs3_NvvIs/mqdefault.jpg
+  url: https://github.com/kepler296e/c_linear_regression

@@ -1,0 +1,233 @@
+body {
+    background-color: #0D1117;
+    font-family: "Alliance No.1", sans-serif;
+    color: white;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 4rem 2rem 6rem 2rem;
+}
+
+main {
+    display: flex;
+    justify-content: row;
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+    }
+
+    main {
+        flex-direction: column;
+    }
+
+    .links {
+        flex-direction: column;
+    }
+
+    nav {
+        height: auto;
+        position: static;
+    }
+}
+
+h1 {
+    font-size: 80px;
+    margin: 0 0 3rem 0;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+h4 {
+    font-size: 20px;
+    margin: 0;
+}
+
+a {
+    color: #388bfd;
+}
+
+p,
+li {
+    color: #8b949e;
+}
+
+.photo {
+    width: 240px;
+    height: 240px;
+}
+
+.aboutme {
+    background-color: #1c2026;
+    padding: 1rem;
+}
+
+.rainbow {
+    background: linear-gradient(92.7deg, #56d364 -1.37%, #79c0ff 78.71%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: hue 10s infinite linear;
+}
+
+@keyframes hue {
+    from {
+        filter: hue-rotate(0deg);
+    }
+
+    to {
+        filter: hue-rotate(360deg);
+    }
+}
+
+.logo {
+    color: white;
+    text-decoration: none;
+    margin-right: 24px;
+}
+
+.logo:hover {
+    color: gray;
+}
+
+svg {
+    width: 3rem;
+    height: 3rem;
+}
+
+button {
+    border-radius: 1rem;
+    padding: 1rem;
+    color: white;
+    background-color: #388bfd;
+    cursor: pointer;
+    border: none;
+    font-size: large;
+}
+
+button:hover {
+    background-color: #2964b6;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logos {
+    display: flex;
+    flex-direction: row;
+}
+
+.wrapper {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+nav {
+    width: 700px;
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    margin: 0 2rem;
+}
+
+nav ul {
+    padding: 0;
+}
+
+nav li {
+    margin-bottom: 1rem;
+    list-style: none;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+nav a:hover {
+    color: #388bfd;
+}
+
+.project {
+    width: 280px;
+    height: 370px;
+    margin: 0 1.25rem 1.25rem 0;
+    color: white;
+    background-color: #1c2026;
+    text-decoration: none;
+    border-radius: .5rem;
+    transition: transform 0.1s ease-in-out;
+}
+
+.project .text {
+    margin: 1.5rem;
+}
+
+.project img,
+.project iframe {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border: none;
+    border-radius: .5rem .5rem 0 0;
+}
+
+.project:hover,
+.competition:hover {
+    transform: scale(1.1);
+    transition: transform 0.1s ease-in-out;
+}
+
+.competition {
+    width: 200px;
+    height: 270px;
+    margin: 0 1.25rem 1.25rem 0;
+    color: white;
+    background-color: #1c2026;
+    text-decoration: none;
+    border-radius: .5rem;
+}
+
+.competition img {
+    width: 200px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: .5rem .5rem 0 0;
+}
+
+.competition .text {
+    margin: 18px;
+}
+
+.course {
+    width: 300px;
+    display: flex;
+    background-color: #1c2026;
+    padding: 1rem;
+    margin: 1rem 1rem 0 0;
+    border-radius: 1rem;
+}
+
+.course img {
+    width: 4rem;
+    height: 4rem;
+    margin: 0 1rem 0 0;
+    object-fit: contain;
+}
+
+.course p {
+    margin: .5rem;
+}
