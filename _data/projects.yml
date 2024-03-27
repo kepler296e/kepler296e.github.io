@@ -1,5 +1,14 @@
+- title: Sentiment Analysis
+  description: 
+    LSTM, Bidirectional, Pre-trained GloVe, TensorFlow.
+    <br><br>IMDB 50k movie reviews.
+  image: https://i.ytimg.com/vi/vGjQ1B3FNnU/maxresdefault.jpg
+  url: https://github.com/kepler296e/nlp/blob/master/sentiment_analysis.ipynb
+
 - title: Word Embeddings
-  description: Pre-trained GloVe embeddings, Word2vec, t-SNE, K-means, Clustering
+  description:
+    Pre-trained GloVe, t-SNE, K-means, Clustering.
+    <br><br>400k words, 50 dimensions.
   image: https://devopedia.org/images/article/220/7105.1569667793.png
   url: https://github.com/kepler296e/nlp/blob/master/word_embeddings.ipynb
 
@@ -14,12 +23,12 @@
   url: https://kepler42.pythonanywhere.com/
 
 - title: "Data Analysis: Bicycle Trips in Buenos Aires"
-  description: EDA, Python, Matplotlib, Seaborn, Statistics, Pandas, Numpy
+  description: EDA, Python, Matplotlib, Seaborn, Statistics, Pandas
   image: assets/img/heatmap.png
   url: datos.html
 
 - title: Neural Network from Scratch
-  description: Supervised Learning, Deep Learning, Neural Networks, Fundamentals, Python
+  description: Supervised Learning, Deep Learning, Neural Networks, Python
   video: https://www.youtube.com/embed/0eb_RSzP3rY
   url: https://github.com/kepler296e/nn_scratch_mnist
 
@@ -47,7 +56,7 @@
   url: https://github.com/kepler296e/converso-gpt4
 
 - title: Harvard CS50's Intro. to Computer Science Final Project
-  description: Computer Science, SQL, Python, C, Fundamentals
+  description: Computer Science, SQL, Python, C, HTML, CSS, Flask
   video: https://www.youtube.com/embed/AEUWupUbdfI
   url: http://kepler296e.pythonanywhere.com/
 
