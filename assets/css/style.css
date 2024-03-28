@@ -39,11 +39,6 @@ header {
     margin: 4rem 2rem 6rem 2rem;
 }
 
-.cv {
-    border: none;
-    min-height: 19rem;
-}
-
 .photo {
     width: 15rem;
 }
@@ -72,8 +67,6 @@ header {
 }
 
 .logo {
-    color: white;
-    text-decoration: none;
     margin-right: 1.5rem;
 }
 
@@ -217,12 +210,6 @@ nav a:hover {
 
 .course p {
     margin: .5rem;
-}
-
-@media (max-width: 1600px) {
-    .profile {
-        display: none;
-    }
 }
 
 @media (max-width: 768px) {

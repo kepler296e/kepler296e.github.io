@@ -1,7 +1,7 @@
 - title: Sentiment Analysis
   description: 
     LSTM, Bidirectional, Pre-trained GloVe, TensorFlow.
-    <br><br>IMDB 50k movie reviews.
+    <br><br>IMDb 50k movie reviews.
   image: https://i.ytimg.com/vi/vGjQ1B3FNnU/maxresdefault.jpg
   url: https://github.com/kepler296e/nlp/blob/master/sentiment_analysis.ipynb
 
@@ -48,7 +48,7 @@
 - title: "Bigram: Character-level Language Model"
   description: "Following the Andrej Karpathy's \"Neural Networks: Zero To Hero\" series on YouTube."
   image: https://miro.medium.com/v2/resize:fit:786/format:webp/0*o0rTpF0DSAtYa33O.png
-  url: https://www.kaggle.com/code/kepler296b/bigram-names
+  url: https://github.com/kepler296e/nlp/blob/master/bigram.ipynb
 
 - title: "GPT-4 Chatbot Android App \"Converso\""
   description: OpenAI API, GPT, Android, Kotlin, Authentication, Database, Text to Speech, Speech to Text
