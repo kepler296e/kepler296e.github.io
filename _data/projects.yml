@@ -5,13 +5,6 @@
   image: https://i.ytimg.com/vi/vGjQ1B3FNnU/maxresdefault.jpg
   url: https://github.com/kepler296e/nlp/blob/master/sentiment_analysis.ipynb
 
-- title: Word Embeddings
-  description:
-    Pre-trained GloVe, t-SNE, K-means, Clustering.
-    <br><br>400k words, 50 dimensions.
-  image: https://devopedia.org/images/article/220/7105.1569667793.png
-  url: https://github.com/kepler296e/nlp/blob/master/word_embeddings.ipynb
-
 - title: Recurrent Neural Network from Scratch
   description: Following the DeepLearning.AI Sequence Models course on RNN, GRU, and LSTM.
   image: https://pbs.twimg.com/media/Eo3plJwU0AMEX6j.jpg
@@ -40,20 +33,27 @@
   name: Power BI report
   name2: Notebook
 
+- title: Word Embeddings
+  description:
+    Pre-trained GloVe, t-SNE, K-means, Clustering.
+    <br><br>400k words, 50 dimensions.
+  image: https://devopedia.org/images/article/220/7105.1569667793.png
+  url: https://github.com/kepler296e/nlp/blob/master/word_embeddings.ipynb
+
 - title: Natural Language Processing with BERT
   description: LLM, NLP, BERT, Exploratory Data Analysis, TensorFlow, Preprocessing, Transformers, Embeddings
   image: https://i0.wp.com/neptune.ai/wp-content/uploads/2022/10/bert_encoder.png?resize=576%2C526&ssl=1
   url: https://www.kaggle.com/code/kepler296b/wabertson
 
-- title: "Bigram: Character-level Language Model"
-  description: "Following the Andrej Karpathy's \"Neural Networks: Zero To Hero\" series on YouTube."
-  image: https://miro.medium.com/v2/resize:fit:786/format:webp/0*o0rTpF0DSAtYa33O.png
-  url: https://github.com/kepler296e/nlp/blob/master/bigram.ipynb
-
 - title: "GPT-4 Chatbot Android App \"Converso\""
   description: OpenAI API, GPT, Android, Kotlin, Authentication, Database, Text to Speech, Speech to Text
   image: https://raw.githubusercontent.com/kepler296e/converso-gpt4/master/screenshots/s1.jpeg
   url: https://github.com/kepler296e/converso-gpt4
+
+- title: Unity3D Game Assets
+  description: C#, Game Developement, Unity3D
+  image: https://raw.githubusercontent.com/kepler296e/unity-kepler-assets/master/Gifs/objcntrl1.gif
+  url: https://github.com/kepler296e/unity-kepler-assets
 
 - title: Harvard CS50's Intro. to Computer Science Final Project
   description: Computer Science, SQL, Python, C, HTML, CSS, Flask
@@ -65,10 +65,10 @@
   image: https://raw.githubusercontent.com/kepler296e/math-lab/master/images/mandel.png
   url: https://github.com/kepler296e/math-lab
 
-- title: Unity3D Game Assets
-  description: C#, Game Developement, Unity3D
-  image: https://raw.githubusercontent.com/kepler296e/unity-kepler-assets/master/Gifs/objcntrl1.gif
-  url: https://github.com/kepler296e/unity-kepler-assets
+- title: "Bigram: Character-level Language Model"
+  description: "Following the Andrej Karpathy's \"Neural Networks: Zero To Hero\" series on YouTube."
+  image: https://miro.medium.com/v2/resize:fit:786/format:webp/0*o0rTpF0DSAtYa33O.png
+  url: https://github.com/kepler296e/nlp/blob/master/bigram.ipynb
 
 - title: Tweet Classification using Logistic Regression
   description: NLP, Supervised Learning, Python, Pandas, TF-IDF

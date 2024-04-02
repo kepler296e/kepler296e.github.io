@@ -21,7 +21,7 @@
                 <div class="logos">
                     {% for link in site.data.links %}
                     <a class="logo" href="{{ link.url }}" target="_blank">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="white" viewBox="{{ link.viewBox }}">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="{{ link.viewBox }}">
                             <path d="{{ link.svg }}"></path>
                         </svg>
                     </a>

@@ -1,8 +1,15 @@
 body {
     background-color: #0D1117;
     font-family: Arial, sans-serif;
-    color: white;
     margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-weight: normal;
+    color: white;
 }
 
 h1 {
@@ -44,16 +51,15 @@ header {
 }
 
 .aboutme {
-    background-color: #1c2026;
     padding: 1rem;
 }
 
 .rainbow {
     background: linear-gradient(92.7deg, #56d364 -1.37%, #79c0ff 78.71%);
     background-clip: text;
-    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: hue 10s infinite linear;
+    font-weight: bold;
 }
 
 @keyframes hue {
@@ -68,6 +74,7 @@ header {
 
 .logo {
     margin-right: 1.5rem;
+    color: white;
 }
 
 .logo:hover {
@@ -141,12 +148,18 @@ nav a:hover {
     color: #388bfd;
 }
 
+.aboutme,
+.project,
+.competition,
+.course {
+    background-color: #21262D;
+    color: white;
+}
+
 .project {
     width: 17.5rem;
     height: 23.125rem;
     margin: 0 1.25rem 1.25rem 0;
-    color: white;
-    background-color: #1c2026;
     text-decoration: none;
     border-radius: .5rem;
     transition: transform 0.1s ease-in-out;
@@ -175,8 +188,6 @@ nav a:hover {
     width: 12.5rem;
     height: 16.875rem;
     margin: 0 1.25rem 1.25rem 0;
-    color: white;
-    background-color: #1c2026;
     text-decoration: none;
     border-radius: .5rem;
 }
@@ -195,7 +206,6 @@ nav a:hover {
 .course {
     width: 18.75rem;
     display: flex;
-    background-color: #1c2026;
     padding: 1rem;
     margin: 1rem 1rem 0 0;
     border-radius: 1rem;
