@@ -50,7 +50,7 @@ header {
     width: 15rem;
 }
 
-.aboutme {
+.about-me {
     padding: 1rem;
 }
 
@@ -117,7 +117,9 @@ button:hover {
 
 main {
     display: flex;
-    justify-content: row;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 2rem;
 }
 
 nav {
@@ -125,8 +127,8 @@ nav {
     position: sticky;
     top: 0;
     height: 100vh;
-    padding: 0 2rem;
     background-color: #0D1117;
+    margin-right: 3rem;
 }
 
 nav ul {
@@ -148,7 +150,7 @@ nav a:hover {
     color: #388bfd;
 }
 
-.aboutme,
+.about-me,
 .project,
 .competition,
 .course {
