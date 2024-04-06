@@ -1,16 +1,14 @@
-- title: Sentiment Analysis
-  description: 
-    LSTM, Bidirectional, Pre-trained GloVe, TensorFlow.
-    <br><br>IMDb 50k movie reviews.
-  image: https://i.ytimg.com/vi/vGjQ1B3FNnU/maxresdefault.jpg
-  url: https://github.com/kepler296e/nlp/blob/master/sentiment_analysis.ipynb
+- title: "Image Captioning: Vision Transformer"
+  description: "CNN, LSTM, Pre-trained ResNet-50, PyTorch"
+  image: https://miro.medium.com/v2/resize:fit:1100/0*mCHDMNdwb_gB1Rj9.
+  url: https://github.com/kepler296e/nlp/blob/master/image_captioning.ipynb
 
 - title: Recurrent Neural Network from Scratch
   description: Following the DeepLearning.AI Sequence Models course on RNN, GRU, and LSTM.
   image: https://pbs.twimg.com/media/Eo3plJwU0AMEX6j.jpg
   url: https://github.com/kepler296e/nlp/blob/master/rnn.ipynb"
 
-- title: Azure AI + Python Backend with Django
+- title: Azure AI Sentiment Analysis Django Web App
   description: Sentiment Analysis model deployed on production.
   image: https://cdn.botpenguin.com/assets/website/Sentiment_Analysis_949cdd3fd1.png
   url: https://kepler42.pythonanywhere.com/
@@ -25,7 +23,14 @@
   video: https://www.youtube.com/embed/0eb_RSzP3rY
   url: https://github.com/kepler296e/nn_scratch_mnist
 
-- title: "Titanic: Power BI + ML"
+- title: Sentiment Analysis
+  description: 
+    LSTM, Bidirectional, Pre-trained GloVe, TensorFlow.
+    <br><br>IMDb 50k movie reviews.
+  image: https://i.ytimg.com/vi/vGjQ1B3FNnU/maxresdefault.jpg
+  url: https://github.com/kepler296e/nlp/blob/master/sentiment_analysis.ipynb
+
+- title: "Titanic: Power BI & ML"
   description: Power BI, Random Forest
   video: media/titanic_bi.pdf 
   url: media/titanic_bi.pdf
@@ -55,7 +60,7 @@
   image: https://raw.githubusercontent.com/kepler296e/unity-kepler-assets/master/Gifs/objcntrl1.gif
   url: https://github.com/kepler296e/unity-kepler-assets
 
-- title: Harvard CS50's Intro. to Computer Science Final Project
+- title: Harvard CS50's Intro. to CompSci Final Project
   description: Computer Science, SQL, Python, C, HTML, CSS, Flask
   video: https://www.youtube.com/embed/AEUWupUbdfI
   url: http://kepler296e.pythonanywhere.com/
@@ -69,6 +74,11 @@
   description: "Following the Andrej Karpathy's \"Neural Networks: Zero To Hero\" series on YouTube."
   image: https://miro.medium.com/v2/resize:fit:786/format:webp/0*o0rTpF0DSAtYa33O.png
   url: https://github.com/kepler296e/nlp/blob/master/bigram.ipynb
+
+- title: Positional Encodings
+  description: Transformers, NLP, Python
+  image: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRey6uJVcVcaV_wRVnlFUcc7AFJb_vgH0s2VQHQauJisQ&s
+  url: https://github.com/kepler296e/nlp/blob/master/positional_encodings.ipynb
 
 - title: Tweet Classification using Logistic Regression
   description: NLP, Supervised Learning, Python, Pandas, TF-IDF
