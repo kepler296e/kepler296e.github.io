@@ -1,5 +1,5 @@
-- title: "Image Captioning: Vision Transformer"
-  description: "CNN, LSTM, Pre-trained ResNet-50, PyTorch"
+- title: Image Captioning using a Transformer
+  description: CNN, Attention, LSTM, Pre-trained ResNet-50, PyTorch
   image: https://miro.medium.com/v2/resize:fit:1100/0*mCHDMNdwb_gB1Rj9.
   url: https://github.com/kepler296e/nlp/blob/master/image_captioning.ipynb
 
