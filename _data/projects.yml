@@ -23,6 +23,11 @@
   video: https://www.youtube.com/embed/0eb_RSzP3rY
   url: https://github.com/kepler296e/nn_scratch_mnist
 
+- title: "Tableau: Video Game Industry Data Analysis"
+  description: Tableau, Data Analysis, Data Visualization
+  image: https://public.tableau.com/static/images/In/Industriadelosvideojuegos/Industriadelosvideojuegos1980-2018/4_3.png
+  url: https://public.tableau.com/app/profile/nazareno.a8629/viz/Industriadelosvideojuegos/Industriadelosvideojuegos1980-2018
+
 - title: Sentiment Analysis
   description: 
     LSTM, Bidirectional, Pre-trained GloVe, TensorFlow.
