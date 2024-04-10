@@ -23,12 +23,7 @@
   video: https://www.youtube.com/embed/0eb_RSzP3rY
   url: https://github.com/kepler296e/nn_scratch_mnist
 
-- title: "Tableau: Video Game Industry Data Analysis"
-  description: Tableau, Data Analysis, Data Visualization
-  image: https://public.tableau.com/static/images/In/Industriadelosvideojuegos/Industriadelosvideojuegos1980-2018/4_3.png
-  url: https://public.tableau.com/app/profile/nazareno.a8629/viz/Industriadelosvideojuegos/Industriadelosvideojuegos1980-2018
-
-- title: Sentiment Analysis
+- title: Sentiment Analysis LSTM
   description: 
     LSTM, Bidirectional, Pre-trained GloVe, TensorFlow.
     <br><br>IMDb 50k movie reviews.
@@ -42,6 +37,11 @@
   url2: https://www.kaggle.com/code/kepler296b/titanic
   name: Power BI report
   name2: Notebook
+
+- title: "Tableau: Video Game Industry Data Analysis"
+  description: Tableau, Data Analysis, Data Visualization
+  image: https://public.tableau.com/static/images/Vi/VideoGameIndustry1980-2018/VideoGameIndustry1980-2018/4_3.png
+  url: https://public.tableau.com/app/profile/nazareno.a8629/viz/VideoGameIndustry1980-2018/VideoGameIndustry1980-2018
 
 - title: Word Embeddings
   description:
@@ -79,7 +79,7 @@
   description: "Following the Andrej Karpathy's \"Neural Networks: Zero To Hero\" series on YouTube."
   image: https://miro.medium.com/v2/resize:fit:786/format:webp/0*o0rTpF0DSAtYa33O.png
   url: https://github.com/kepler296e/nlp/blob/master/bigram.ipynb
-
+  
 - title: Positional Encodings
   description: Transformers, NLP, Python
   image: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRey6uJVcVcaV_wRVnlFUcc7AFJb_vgH0s2VQHQauJisQ&s
