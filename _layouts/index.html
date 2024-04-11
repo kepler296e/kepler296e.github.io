@@ -7,6 +7,7 @@
     <title>{{ site.title }}</title>
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
     {% include analytics.html %}
+    {% seo %}
 </head>
 
 <body>
@@ -16,7 +17,7 @@
     <header>
         <div>
             <h1>{{ site.title }}</h1>
-            <h2><span class="rainbow">{{ site.subtitle }}</span></h2>
+            <h2><span class="rainbow">{{ site.tagline }}</span></h2>
             <div class="links">
                 <div class="logos">
                     {% for link in site.data.links %}
@@ -33,7 +34,7 @@
             </div>
         </div>
         <div>
-            <img class="photo" src="{{ site.avatar }}" loading="lazy">
+            <img class="photo" src="{{ site.image }}" loading="lazy">
             <div class="about-me">
                 <p>👋 Hello! ¡Hola!</p>
             </div>
