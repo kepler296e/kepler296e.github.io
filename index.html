@@ -1,10 +1,13 @@
+---
+layout: none
+---
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ site.title }}</title>
+    <title>Nazareno Amidolare</title>
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
     {% include analytics.html %}
     {% seo %}
@@ -12,11 +15,11 @@
 
 <body>
     <div style="margin: 2rem;">
-        <a href="/">{{ site.title }}</a>
+        <a href="/">Nazareno Amidolare</a>
     </div>
     <header>
         <div>
-            <h1>{{ site.title }}</h1>
+            <h1>Nazareno Amidolare</h1>
             <h2><span class="rainbow">{{ site.tagline }}</span></h2>
             <div class="links">
                 <div class="logos">
@@ -34,9 +37,9 @@
             </div>
         </div>
         <div>
-            <img class="photo" src="{{ site.image }}" loading="lazy">
+            <img class="photo" src="{{ site.image }}" alt="Photo of {{ site.title }}" loading="lazy">
             <div class="about-me">
-                <p>👋 Hello! ¡Hola!</p>
+                <p style="font-family: 'Times New Roman', Times, serif; font-size: larger;">Per aspera ad astra</p>
             </div>
         </div>
     </header>
@@ -59,7 +62,7 @@
                         <a class="project" href="{{ project.url }}" target="_blank">
                             {% endif %}
                             {% if project.image %}
-                            <img src="{{ project.image }}" loading="lazy">
+                            <img src="{{ project.image }}" alt="{{ project.title}}" loading="lazy">
                             {% else %}
                             <iframe src="{{ project.video }}" allowfullscreen></iframe>
                             {% endif %}
@@ -86,7 +89,7 @@
                 <div class="wrapper">
                     {% for competition in site.data.competitions %}
                     <a class="competition" href="{{ competition.url }}" target="_blank">
-                        <img src="{{ competition.image }}" loading="lazy">
+                        <img src="{{ competition.image }}" alt="{{ competition.title }}" loading="lazy">
                         <div class="text">
                             <h4>{{ competition.title }}</h4>
                             <p>{{ competition.description }}</p>
