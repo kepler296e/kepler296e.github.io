@@ -20,7 +20,7 @@
 
 - title: Neural Network from Scratch
   description: Supervised Learning, Deep Learning, Neural Networks, Python
-  video: https://www.youtube.com/embed/0eb_RSzP3rY
+  image: https://i.ytimg.com/vi/0eb_RSzP3rY/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBDpXgwO5l2gOPhQKJlaRzJ6I-Kvw
   url: https://github.com/kepler296e/nn_scratch_mnist
 
 - title: Sentiment Analysis LSTM
@@ -32,7 +32,7 @@
 
 - title: "Titanic: Power BI & ML"
   description: Power BI, Random Forest
-  video: media/titanic_bi.pdf 
+  image: assets/img/titanic.png
   url: media/titanic_bi.pdf
   url2: https://www.kaggle.com/code/kepler296b/titanic
   name: Power BI report
@@ -67,7 +67,7 @@
 
 - title: Harvard CS50's Intro. to CompSci Final Project
   description: Computer Science, SQL, Python, C, HTML, CSS, Flask
-  video: https://www.youtube.com/embed/AEUWupUbdfI
+  image: https://i.ytimg.com/vi/AEUWupUbdfI/hqdefault.jpg?sqp=-oaymwE2CNACELwBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhZIGMoZTAP&rs=AOn4CLCAlxRfW845LumDV__BGUuZhbipEA
   url: http://kepler296e.pythonanywhere.com/
 
 - title: Fractals, Complex Roots, and Irrational Numbers

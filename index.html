@@ -61,11 +61,7 @@ layout: none
                         {% else %}
                         <a class="project" href="{{ project.url }}" target="_blank">
                             {% endif %}
-                            {% if project.image %}
-                            <img src="{{ project.image }}" alt="{{ project.title}}" loading="lazy">
-                            {% else %}
-                            <iframe src="{{ project.video }}" allowfullscreen></iframe>
-                            {% endif %}
+                            <img src="{{ project.image }}" alt="{{ project.title }}" loading="lazy">
                             <div class="text">
                                 <h4>{{ project.title }}</h4>
                                 {% if project.url2 %}
@@ -103,7 +99,7 @@ layout: none
                 <div class="wrapper">
                     {% for course in site.data.courses %}
                     <div class="course">
-                        <img src="{{ site.data.institutions[course.institution].image }}" loading="lazy">
+                        <img src="{{ site.data.institutions[course.institution].image }}" alt="{{ site.data.institutions[course.institution].name }}" loading="lazy">
                         <div>
                             {% if course.rainbow %}
                             <h4 class="rainbow">{{ course.title }}</h4>
