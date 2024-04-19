@@ -23,7 +23,7 @@ tagline: Artificial Intelligence (AI) Engineering Student
 email: nazaamidolare@gmail.com
 description: Nazareno Amidolare's personal website
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://kepler296e.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://kepler296e.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 image: assets/img/mosaic.png
 cv: media/cv_en2.pdf
