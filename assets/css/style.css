@@ -229,10 +229,7 @@ nav a:hover {
         font-size: 12px;
     }
 
-    main {
-        flex-direction: column;
-    }
-
+    main,
     .links {
         flex-direction: column;
     }

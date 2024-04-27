@@ -25,7 +25,7 @@ description: Nazareno Amidolare's personal website
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://kepler296e.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
-image: assets/img/mosaic.png
+image: assets/img/avatar.jpg
 cv: media/cv_en2.pdf
 
 twitter:
@@ -35,11 +35,8 @@ twitter:
 social:
   name: Nazareno Amidolare
   links:
-    - https://twitter.com/kepler256b
     - https://www.linkedin.com/in/nazareno-amidolare/
     - https://github.com/https://github.com/kepler296e
-    - https://www.kaggle.com/kepler296b
-    - https://leetcode.com/Kepler256b/
 
 locale: en_US
 

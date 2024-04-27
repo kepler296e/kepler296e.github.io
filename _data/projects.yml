@@ -68,7 +68,7 @@
 - title: Harvard CS50's Intro. to CompSci Final Project
   description: Computer Science, SQL, Python, C, HTML, CSS, Flask
   image: https://i.ytimg.com/vi/AEUWupUbdfI/hqdefault.jpg?sqp=-oaymwE2CNACELwBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhZIGMoZTAP&rs=AOn4CLCAlxRfW845LumDV__BGUuZhbipEA
-  url: http://kepler296e.pythonanywhere.com/
+  url: https://kepler296e.pythonanywhere.com/
 
 - title: Fractals, Complex Roots, and Irrational Numbers
   description: Python, Matplotlib, Complex Analysis, Mathematics
