@@ -6,7 +6,7 @@
 - title: Recurrent Neural Network from Scratch
   description: Following the DeepLearning.AI Sequence Models course on RNN, GRU, and LSTM.
   image: https://pbs.twimg.com/media/Eo3plJwU0AMEX6j.jpg
-  url: https://www.youtube.com/watch?v=0eb_RSzP3rY
+  url: https://github.com/kepler296e/nlp/blob/master/rnn.ipynb
 
 - title: Azure AI Sentiment Analysis Django Web App
   description: Sentiment Analysis model deployed on production.

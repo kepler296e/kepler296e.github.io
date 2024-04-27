@@ -21,29 +21,17 @@
 title: Nazareno Amidolare
 tagline: Artificial Intelligence (AI) Engineering Student
 email: nazaamidolare@gmail.com
-description: Nazareno Amidolare's personal website
+description: Nazareno Amidolare
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://kepler296e.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 image: assets/img/avatar.jpg
-cv: media/cv_en2.pdf
-
-twitter:
-  username: kepler256b
-  card: summary
-
-social:
-  name: Nazareno Amidolare
-  links:
-    - https://www.linkedin.com/in/nazareno-amidolare/
-    - https://github.com/https://github.com/kepler296e
 
 locale: en_US
 
 # Build settings
 theme: minima
 plugins:
-  - jekyll-feed
   - jekyll-seo-tag
 
 # Exclude from processing.
