@@ -39,7 +39,7 @@ li {
     color: #8b949e;
 }
 
-header {
+.header {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
