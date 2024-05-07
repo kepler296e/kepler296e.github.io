@@ -73,7 +73,7 @@ li {
     }
 }
 
-button {
+.button {
     border-radius: 1rem;
     padding: 1rem;
     color: white;
@@ -81,9 +81,10 @@ button {
     cursor: pointer;
     border: none;
     font-size: large;
+    text-decoration: none;
 }
 
-button:hover {
+.button:hover {
     background-color: #2964b6;
 }
 
