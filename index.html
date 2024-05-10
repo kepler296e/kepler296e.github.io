@@ -2,11 +2,10 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- Begin Jekyll SEO tag v2.8.0 -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- SEO -->
     <title>Nazareno Amidolare</title>
-    <meta name="generator" content="Jekyll v4.3.3" />
     <meta property="og:title" content="Nazareno Amidolare" />
     <meta property="og:locale" content="en_US" />
     <meta property="og:description" content="Artificial Intelligence (AI) Engineering Student" />
@@ -18,9 +17,7 @@
     <meta property="twitter:title" content="Nazareno Amidolare" />
     <script type="application/ld+json">
     {"@context":"https://schema.org","@type":"WebSite","description":"Artificial Intelligence (AI) Engineering Student","headline":"Nazareno Amidolare","name":"Nazareno Amidolare","url":"https://kepler296e.github.io/"}</script>
-    <!-- End Jekyll SEO tag -->
-    <link rel="stylesheet" href="style.css">
-    <!-- Google tag (gtag.js) -->
+    <!-- Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-WPSWMRM0CF"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
@@ -29,6 +26,9 @@
 
         gtag('config', 'G-WPSWMRM0CF');
     </script>
+    <link rel="stylesheet" href="style.css">
+    <script src="particles.js"></script>
+    <script src="app.js"></script>
 </head>
 
 <body>
@@ -36,9 +36,8 @@
         <div style="margin: 2rem;">
             <a rel="author" href="/">Nazareno Amidolare</a>
         </div>
-
         <div class="header">
-            <div>
+            <div class="left">
                 <h1>Nazareno Amidolare</h1>
                 <h2 class="rainbow">Artificial Intelligence (AI) Engineering Student</h2>
                 <div class="links">
@@ -85,7 +84,7 @@
                 </div>
             </div>
 
-            <div>
+            <div class="right">
                 <img class="photo" src="img/avatar.jpg" alt="Nazareno Amidolare">
                 <div class="about-me">
                     <p style="font-family: 'Times New Roman', Times, serif; font-size: larger;">Per aspera ad astra</p>
@@ -93,6 +92,8 @@
             </div>
         </div>
     </header>
+
+    <div id="particles-js"></div>
 
     <main>
         <nav>
@@ -108,11 +109,11 @@
             <div id="projects">
                 <div class="wrapper">
 
-                    <a class="project" href="https://github.com/kepler296e/nlp/blob/master/image_captioning.ipynb" target="_blank">
-                        <img src="https://miro.medium.com/v2/resize:fit:1100/0*mCHDMNdwb_gB1Rj9.">
+                    <a class="project" href="https://huggingface.co/spaces/kepler296e/stable_diffusion_from_scratch" target="_blank">
+                        <img src="https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/media/image/2022/10/funciona-paso-paso-ia-stable-diffusion-crear-imagenes-texto-2834821.jpg?tf=3840x">
                         <div class="text">
-                            <div class="h4">Image Captioning using a Transformer</div>
-                            <p>CNN, Attention, LSTM, Pre-trained ResNet-50, PyTorch</p>
+                            <div class="h4">Text-to-Image: Stable Diffusion from Scratch</div>
+                            <p>Docker, FastAPI, PyTorch, Hugging Face</p>
                         </div>
                     </a>
 
