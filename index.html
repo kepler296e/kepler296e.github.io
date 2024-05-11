@@ -12,7 +12,7 @@ layout: home
     <h2 class="subtitle rainbow">{{ site.description }}</h2>
     {% for link in site.data.social %}
     <a href="{{ link.url }}" target="_blank" class="social">
-        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="{{ link.viewBox }}">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="{{ link.viewBox }}" class="svg">
             <path d="{{ link.svg }}"></path>
         </svg>
     </a>
