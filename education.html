@@ -1,0 +1,18 @@
+---
+layout: page
+title: Education
+permalink: /education/
+---
+{% for course in site.data.courses %}
+<div href="{{ course.url }}" class="education">
+    <img src="{{ site.data.institutions[course.institution].image }}" alt="{{ course.title }}">
+    <div class="text">
+        <h1>{{ course.title }}</h1>
+        <p>{{ site.data.institutions[course.institution].name }}</p>
+        <p>{{ course.date }}</p>
+        {% if course.certificate %}
+        <a href="{{ course.certificate }}">View Certificate</a>
+        {% endif %}
+    </div>
+</div>
+{% endfor %}

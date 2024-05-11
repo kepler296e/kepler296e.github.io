@@ -1,0 +1,14 @@
+---
+layout: page
+title: Machine Learning Competitions
+permalink: /ml_competitions/
+---
+{% for competition in site.data.competitions %}
+<a href="{{ competition.url }}" class="card competition">
+    <div class="text">
+        <h3>{{ competition.title }}</h3>
+        <p>{{ competition.description }}</p>
+    </div>
+    <img src="{{ competition.image }}" alt="{{ competition.title }}">
+</a>
+{% endfor %}

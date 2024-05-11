@@ -1,0 +1,148 @@
+#particles-js {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+.avatar {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+}
+
+.blur {
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(2px);
+}
+
+.title {
+    font-size: 3rem;
+    margin-bottom: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.subtitle {
+    font-size: 2rem;
+}
+
+/* SOCIAL */
+svg {
+    width: 2rem;
+    height: 2rem;
+    margin-right: 1rem;
+    color: #2a2a2a;
+    transition: transform 0.1s;
+    transform: scale(1);
+}
+
+svg:hover {
+    transition: transform 0.1s;
+    transform: scale(2);
+}
+
+.social:hover {
+    text-decoration: none;
+}
+
+/* WRAPPER */
+.wrapper-row {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+/* CARD */
+.card {
+    display: flex;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+    border: 1px solid #e2e2e2;
+    background-color: white;
+    transition: background-color 0.2s, transform 0.1s;
+    transform: scale(1);
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.card:hover {
+    background-color: #e2e2e2;
+    transition: background-color 0.2s, transform 0.2s;
+    transform: scale(1.2);
+    text-decoration: none;
+}
+
+.card .text {
+    width: 100%;
+    padding: 1rem;
+    color: #2a2a2a;
+    box-sizing: border-box;
+}
+
+.card .text p {
+    color: #757575;
+}
+
+/* PROJECT */
+.project {
+    width: 15rem;
+    height: 22.5rem;
+    flex-direction: column;
+}
+
+.project img {
+    width: 100%;
+    height: 10rem;
+    object-fit: cover;
+    border-radius: 1rem 1rem 0 0;
+}
+
+.project h3 {
+    font-weight: 500;
+}
+
+/* EDUCATION */
+.education {
+    display: flex;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+    padding: 1rem 0;
+}
+
+.education h1,
+.education p {
+    margin: 0;
+}
+
+.education img {
+    width: 4rem;
+    height: 4rem;
+    object-fit: contain;
+    margin-right: 1rem;
+}
+
+/* COMPETITION */
+.competition img {
+    width: 10rem;
+    object-fit: cover;
+    border-radius: 0 1rem 1rem 0;
+}
+
+/* RAINBOW */
+.rainbow {
+    font-weight: 500;
+    background: linear-gradient(92.7deg, #56d364 -1.37%, #79c0ff 78.71%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: hue 10s infinite linear;
+}
+
+@keyframes hue {
+    from {
+        filter: hue-rotate(0deg);
+    }
+
+    to {
+        filter: hue-rotate(360deg);
+    }
+}

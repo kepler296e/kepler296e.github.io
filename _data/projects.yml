@@ -1,0 +1,96 @@
+- title: "Text-to-Image: Stable Diffusion from Scratch"
+  description: "Docker, FastAPI, PyTorch, Hugging Face."
+  image: https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/media/image/2022/10/funciona-paso-paso-ia-stable-diffusion-crear-imagenes-texto-2834821.jpg?tf=3840x
+  url: https://huggingface.co/spaces/kepler296e/stable_diffusion_from_scratch
+
+- title: GPT-4 Chatbot Android App 'Converso'
+  description: OpenAI API, GPT, Android, Kotlin, Authentication, Database, Text to Speech, Speech to Text
+  image: https://raw.githubusercontent.com/kepler296e/converso-gpt4/master/screenshots/s1.jpeg
+  url: https://github.com/kepler296e/converso-gpt4
+  
+- title: Azure AI Sentiment Analysis Django Web App
+  description: Sentiment Analysis model deployed on production.
+  image: https://cdn.botpenguin.com/assets/website/Sentiment_Analysis_949cdd3fd1.png
+  url: https://kepler42.pythonanywhere.com/
+
+- title: "Data Analysis: Bicycle Trips in Buenos Aires"
+  description: EDA, Python, Matplotlib, Seaborn, Statistics, Pandas
+  image: assets/img/heatmap.png
+  url: datos.html
+
+- title: Neural Network from Scratch
+  description: Supervised Learning, Deep Learning, Neural Networks, Python
+  image: https://i.ytimg.com/vi/0eb_RSzP3rY/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBDpXgwO5l2gOPhQKJlaRzJ6I-Kvw
+  url: https://github.com/kepler296e/nn_scratch_mnist?tab=readme-ov-file#neural-network-from-scratch-digit-recognition
+
+- title: Recurrent Neural Network from Scratch
+  description: Following the DeepLearning.AI Sequence Models course on RNN, GRU, and LSTM.
+  image: https://pbs.twimg.com/media/Eo3plJwU0AMEX6j.jpg
+  url: https://github.com/kepler296e/nlp/blob/master/rnn.ipynb
+
+- title: Natural Language Processing with BERT
+  description: LLM, NLP, BERT, Exploratory Data Analysis, TensorFlow, Preprocessing, Transformers, Embeddings
+  image: https://i0.wp.com/neptune.ai/wp-content/uploads/2022/10/bert_encoder.png?resize=576%2C526&ssl=1
+  url: https://www.kaggle.com/code/kepler296b/wabertson
+
+- title: "Titanic: Power BI & ML"
+  description: Power BI, Random Forest
+  image: assets/img/titanic.png
+  url: media/titanic_bi.pdf
+  url2: https://www.kaggle.com/code/kepler296b/titanic
+  name: Power BI report
+  name2: Notebook
+
+- title: "Tableau: Video Game Industry Data Analysis"
+  description: Tableau, Data Analysis, Data Visualization
+  image: https://public.tableau.com/static/images/Vi/VideoGameIndustry1980-2018/VideoGameIndustry1980-2018/4_3.png
+  url: https://public.tableau.com/app/profile/nazareno.a8629/viz/VideoGameIndustry1980-2018/VideoGameIndustry1980-2018
+
+- title: Harvard Computer Science CS50's Final Project
+  description: Computer Science, SQL, Python, C, HTML, CSS, Flask
+  image: https://i.ytimg.com/vi/AEUWupUbdfI/hqdefault.jpg?sqp=-oaymwE2CNACELwBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhZIGMoZTAP&rs=AOn4CLCAlxRfW845LumDV__BGUuZhbipEA
+  url: https://kepler296e.pythonanywhere.com/
+
+- title: Sentiment Analysis LSTM
+  description:
+    LSTM, Bidirectional, Pre-trained GloVe, TensorFlow.
+    <br><br>IMDb 50k movie reviews.
+  image: https://i.ytimg.com/vi/vGjQ1B3FNnU/maxresdefault.jpg
+  url: https://github.com/kepler296e/nlp/blob/master/sentiment_analysis.ipynb
+
+- title: Word Embeddings
+  description:
+    Pre-trained GloVe, t-SNE, K-means, Clustering.
+    <br><br>400k words, 50 dimensions.
+  image: https://devopedia.org/images/article/220/7105.1569667793.png
+  url: https://github.com/kepler296e/nlp/blob/master/word_embeddings.ipynb
+
+- title: Positional Encodings
+  description: Transformers, NLP, Python
+  image: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRey6uJVcVcaV_wRVnlFUcc7AFJb_vgH0s2VQHQauJisQ&s
+  url: https://github.com/kepler296e/nlp/blob/master/positional_encodings.ipynb
+
+- title: "Bigram: Character-level Language Model"
+  description: "Following the Andrej Karpathy's 'Neural Networks: Zero To Hero' series on YouTube."
+  image: https://miro.medium.com/v2/resize:fit:786/format:webp/0*o0rTpF0DSAtYa33O.png
+  url: https://github.com/kepler296e/nlp/blob/master/bigram.ipynb
+
+- title: Fractals, Complex Roots, and Irrational Numbers
+  description: Python, Matplotlib, Complex Analysis, Mathematics
+  image: https://raw.githubusercontent.com/kepler296e/math-lab/master/images/mandel.png
+  url: https://github.com/kepler296e/math-lab
+  
+- title: Unity3D Game Assets
+  description: C#, Game Developement, Unity3D
+  image: https://raw.githubusercontent.com/kepler296e/unity-kepler-assets/master/Gifs/objcntrl1.gif
+  url: https://github.com/kepler296e/unity-kepler-assets
+
+- title: Tweet Classification using Logistic Regression
+  description: NLP, Supervised Learning, Python, Pandas, TF-IDF
+  image: https://raw.githubusercontent.com/kepler296e/nlp-dtweets/master/sigmoid.png
+  url: https://github.com/kepler296e/nlp-dtweets
+
+- title: Linear Regression in C
+  description: C, Linear Regression
+  image: https://i.ytimg.com/vi/3bFs3_NvvIs/mqdefault.jpg
+  url: https://github.com/kepler296e/c_linear_regression
