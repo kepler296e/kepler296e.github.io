@@ -16,6 +16,10 @@
     backdrop-filter: blur(2px);
 }
 
+.site-nav {
+    z-index: 1;
+}
+
 .title {
     font-size: 3rem;
     margin-bottom: 0;
