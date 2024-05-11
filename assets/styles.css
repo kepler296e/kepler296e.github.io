@@ -136,6 +136,10 @@
 }
 
 /* COMPETITION */
+.competition {
+    height: 10rem;
+}
+
 .competition img {
     width: 10rem;
     object-fit: cover;
