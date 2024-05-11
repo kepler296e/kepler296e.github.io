@@ -19,7 +19,7 @@
 @media screen and (max-width: 768px) {
     .blur {
         background-color: white;
-        filter: none;
+        backdrop-filter: none;
     }
 }
 
