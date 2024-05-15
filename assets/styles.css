@@ -58,7 +58,7 @@
 .wrapper-row {
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 /* CARD */
@@ -98,6 +98,7 @@
     width: 15rem;
     height: 22.5rem;
     flex-direction: column;
+    margin-right: 2rem;
 }
 
 .project img {

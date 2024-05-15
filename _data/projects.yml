@@ -19,9 +19,11 @@
   url: datos.html
 
 - title: Neural Network from Scratch
-  description: Supervised Learning, Deep Learning, Neural Networks, Python
   image: https://i.ytimg.com/vi/0eb_RSzP3rY/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBDpXgwO5l2gOPhQKJlaRzJ6I-Kvw
-  url: https://github.com/kepler296e/nn_scratch_mnist?tab=readme-ov-file#neural-network-from-scratch-digit-recognition
+  url: https://github.com/kepler296e/nn_scratch_mnist
+  url2: https://www.youtube.com/watch?v=0eb_RSzP3rY
+  name: Step by Step on GitHub
+  name2: Video on YouTube
 
 - title: Recurrent Neural Network from Scratch
   description: Following the DeepLearning.AI Sequence Models course on RNN, GRU, and LSTM.
@@ -34,12 +36,11 @@
   url: https://www.kaggle.com/code/kepler296b/wabertson
 
 - title: "Titanic: Power BI & ML"
-  description: Power BI, Random Forest
   image: assets/img/titanic.png
   url: media/titanic_bi.pdf
   url2: https://www.kaggle.com/code/kepler296b/titanic
   name: Power BI report
-  name2: Notebook
+  name2: ML Predictions
 
 - title: "Tableau: Video Game Industry Data Analysis"
   description: Tableau, Data Analysis, Data Visualization

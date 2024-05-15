@@ -51,6 +51,7 @@ layout: default_wider
     <div class="wrapper-row">
         {% for project in site.data.projects %}
         <article>
+            {% if project.url2 == null %}
             <a href="{{ project.url }}" class="card project">
                 <img src="{{ project.image }}" alt="{{ project.title }}">
                 <div class="text">
@@ -58,6 +59,19 @@ layout: default_wider
                     <p>{{ project.description }}</p>
                 </div>
             </a>
+            {% else %}
+            <div href="{{ project.url }}" class="card project">
+                <img src="{{ project.image }}" alt="{{ project.title }}">
+                <div class="text">
+                    <h3>{{ project.title }}</h3>
+                    <p>{{ project.description }}</p>
+                    <ul>
+                        <li><a href="{{ project.url }}">{{ project.name }}</a></li>
+                        <li><a href="{{ project.url2 }}">{{ project.name2 }}</a></li>
+                    </ul>
+                </div>
+            </div>
+            {% endif %}
         </article>
         {% endfor %}
     </div>

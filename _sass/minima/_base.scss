@@ -223,8 +223,8 @@ pre {
 }
 
 .wider {
-  max-width: -webkit-calc(#{$content-width} *2);
-  max-width: calc(#{$content-width} *2);
+  max-width: -webkit-calc(#{$content-width} *1.5);
+  max-width: calc(#{$content-width} *1.5);
 }
 
 /**
