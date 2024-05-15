@@ -32,8 +32,6 @@ github_username:  kepler296e
 avatar: /assets/img/avatar.jpg
 address: Buenos Aires, Argentina
 
-google_analytics: G-WPSWMRM0CF
-
 # Build settings
 theme: minima
 plugins:
