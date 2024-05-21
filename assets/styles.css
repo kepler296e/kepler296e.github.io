@@ -138,6 +138,7 @@
     background: linear-gradient(92.7deg, #56d364 -1.37%, #79c0ff 78.71%);
     background-clip: text;
     -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
     animation: hue 10s infinite linear;
 }
 
