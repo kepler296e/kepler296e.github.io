@@ -8,7 +8,7 @@
   image: https://raw.githubusercontent.com/kepler296e/converso-gpt4/master/screenshots/s1.jpeg
   url: https://github.com/kepler296e/converso-gpt4
   
-- title: Azure AI Sentiment Analysis Django Web App
+- title: Azure AI Sentiment Analysis Web App
   description: Sentiment Analysis model deployed on production.
   image: https://cdn.botpenguin.com/assets/website/Sentiment_Analysis_949cdd3fd1.png
   url: https://kepler42.pythonanywhere.com/
