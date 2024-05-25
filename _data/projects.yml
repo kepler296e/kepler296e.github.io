@@ -1,15 +1,15 @@
 - title: "Text-to-Image: Stable Diffusion from Scratch"
-  description: "Docker, FastAPI, PyTorch, Hugging Face."
+  description: Docker, FastAPI, PyTorch, Hugging Face
   image: https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/media/image/2022/10/funciona-paso-paso-ia-stable-diffusion-crear-imagenes-texto-2834821.jpg?tf=3840x
   url: https://huggingface.co/spaces/kepler296e/stable_diffusion_from_scratch
 
 - title: GPT-4 Chatbot Android App 'Converso'
-  description: OpenAI API, GPT, Android, Kotlin, Authentication, Database, Text to Speech, Speech to Text
+  description: OpenAI API, GPT, Android, Kotlin, Text2Speech, Speech2Text
   image: https://raw.githubusercontent.com/kepler296e/converso-gpt4/master/screenshots/s1.jpeg
   url: https://github.com/kepler296e/converso-gpt4
   
 - title: Azure AI Sentiment Analysis Web App
-  description: Sentiment Analysis model deployed on production.
+  description: Sentiment Analysis model deployed on production
   image: https://cdn.botpenguin.com/assets/website/Sentiment_Analysis_949cdd3fd1.png
   url: https://kepler42.pythonanywhere.com/
 
@@ -22,11 +22,11 @@
   image: https://i.ytimg.com/vi/0eb_RSzP3rY/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBDpXgwO5l2gOPhQKJlaRzJ6I-Kvw
   url: https://github.com/kepler296e/nn_scratch_mnist
   url2: https://www.youtube.com/watch?v=0eb_RSzP3rY
-  name: Step by Step on GitHub
+  name: GitHub's Repo
   name2: Video on YouTube
 
 - title: Recurrent Neural Network from Scratch
-  description: Following the DeepLearning.AI Sequence Models course on RNN, GRU, and LSTM.
+  description: Following the DeepLearning.AI Sequence Models course on RNN, GRU, and LSTM
   image: https://pbs.twimg.com/media/Eo3plJwU0AMEX6j.jpg
   url: https://github.com/kepler296e/nlp/blob/master/rnn.ipynb
 
@@ -39,7 +39,7 @@
   image: assets/img/titanic.png
   url: media/titanic_bi.pdf
   url2: https://www.kaggle.com/code/kepler296b/titanic
-  name: Power BI report
+  name: Power BI
   name2: ML Predictions
 
 - title: "Tableau: Video Game Industry Data Analysis"
@@ -53,16 +53,12 @@
   url: https://kepler296e.pythonanywhere.com/
 
 - title: Sentiment Analysis LSTM
-  description:
-    LSTM, Bidirectional, Pre-trained GloVe, TensorFlow.
-    <br><br>IMDb 50k movie reviews.
+  description: LSTM, Bidirectional, Pre-trained GloVe, TensorFlow. IMDb 50k movie reviews
   image: https://i.ytimg.com/vi/vGjQ1B3FNnU/maxresdefault.jpg
   url: https://github.com/kepler296e/nlp/blob/master/sentiment_analysis.ipynb
 
 - title: Word Embeddings
-  description:
-    Pre-trained GloVe, t-SNE, K-means, Clustering.
-    <br><br>400k words, 50 dimensions.
+  description: Pre-trained GloVe, t-SNE, K-means, Clustering. 400k words, 50 dimensions
   image: https://devopedia.org/images/article/220/7105.1569667793.png
   url: https://github.com/kepler296e/nlp/blob/master/word_embeddings.ipynb
 
@@ -72,7 +68,7 @@
   url: https://github.com/kepler296e/nlp/blob/master/positional_encodings.ipynb
 
 - title: "Bigram: Character-level Language Model"
-  description: "Following the Andrej Karpathy's 'Neural Networks: Zero To Hero' series on YouTube."
+  description: "Following the Andrej Karpathy's 'Neural Networks: Zero To Hero' series on YouTube"
   image: https://miro.medium.com/v2/resize:fit:786/format:webp/0*o0rTpF0DSAtYa33O.png
   url: https://github.com/kepler296e/nlp/blob/master/bigram.ipynb
 
@@ -81,7 +77,7 @@
   image: https://raw.githubusercontent.com/kepler296e/math-lab/master/images/mandel.png
   url: https://github.com/kepler296e/math-lab
   
-- title: Unity3D Game Assets
+- title: Unity3D Game Development Assets
   description: C#, Game Developement, Unity3D
   image: https://raw.githubusercontent.com/kepler296e/unity-kepler-assets/master/Gifs/objcntrl1.gif
   url: https://github.com/kepler296e/unity-kepler-assets

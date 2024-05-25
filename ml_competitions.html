@@ -6,9 +6,7 @@ permalink: /ml_competitions/
 <ul>
     {% for competition in site.data.competitions %}
     <li>
-        <a href="{{ competition.url }}">
-            {{ competition.title }} ({{ competition.description }})
-        </a>
+        <a href="{{ competition.url }}">{{ competition.title }} ({{ competition.description }})</a>
     </li>
     {% endfor %}
 </ul>
